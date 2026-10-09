@@ -4,6 +4,7 @@ import static android.view.View.INVISIBLE;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +14,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    private int licznik = 0;
+    private TextView textviewPolecenie;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        textviewPolecenie = findViewById(R.id.textViewPolecenie);
     }
 
     public void WybierzKolorOk(View view) {
@@ -32,5 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void WybierzKolor(View view) {
         view.setVisibility(INVISIBLE); // if he is invincible why can i see him
+        licznik++;
+        if (licznik == 4)
+        {
+            textviewPolecenie.setText("Brawo otrzymałeś flagę Polski");
+
+        }
     }
 }
