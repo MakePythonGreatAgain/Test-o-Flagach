@@ -44,6 +44,7 @@
             android:layout_weight="1"
             android:backgroundTint="#ff8800"
             android:layout_margin="10dp"
+            android:onClick="WybierzKolor"
             />
 
         <Button
@@ -63,6 +64,7 @@
             android:layout_weight="1"
             android:backgroundTint="#1fb200"
             android:layout_margin="10dp"
+            android:onClick="WybierzKolor"
             />
     </LinearLayout>
 
@@ -79,6 +81,7 @@
             android:layout_weight="1"
             android:backgroundTint="#ff00f7"
             android:layout_margin="10dp"
+            android:onClick="WybierzKolor"
             />
 
         <Button
@@ -97,7 +100,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#00cfff"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:onClick="WybierzKolor"
+            />
+
     </LinearLayout>
 
 </LinearLayout>

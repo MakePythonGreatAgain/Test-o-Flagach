@@ -1,5 +1,7 @@
 package com.example.myapplication;
 
+import static android.view.View.INVISIBLE;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -26,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void WybierzKolorOk(View view) {
         Toast.makeText(MainActivity.this, "To jest kolor flagi polskiej", Toast.LENGTH_SHORT).show();
+    }
+
+    public void WybierzKolor(View view) {
+        view.setVisibility(INVISIBLE); // if he is invincible why can i see him
     }
 }
