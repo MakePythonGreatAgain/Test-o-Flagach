@@ -53,6 +53,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:layout_margin="10dp"
+            android:onClick="WybierzKolorOk"
             />
 
         <Button
@@ -87,6 +88,7 @@
             android:layout_weight="1"
             android:backgroundTint="#b80a0a"
             android:layout_margin="10dp"
+            android:onClick="WybierzKolorOk"
             />
 
         <Button
