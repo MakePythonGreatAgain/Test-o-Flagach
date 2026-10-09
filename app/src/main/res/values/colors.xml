@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="TloNapisu">#2d5716</color>
+    <color name="Rule34">#81bf94</color>
+    <color name="Lorax">#ff8800</color>
+    <color name="GreenBuge">#1fb200</color>
+    <color name="Pink">#ff00f7</color>
+    <color name="Blood">#b80a0a</color>
+    <color name="AryjskieOczy">#00cfff</color>
 </resources>

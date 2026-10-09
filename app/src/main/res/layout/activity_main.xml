@@ -24,8 +24,8 @@
         android:textSize="20sp"
         android:layout_margin="16dp"
         android:padding="8dp"
-        android:background="#81bf94"
-        android:textColor="#2d5716"
+        android:background="@color/Rule34"
+        android:textColor="@color/TloNapisu"
         android:textAlignment="center"
         />
         <!-- Margin , textSize, padding,
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#ff8800"
+            android:backgroundTint="@color/Lorax"
             android:layout_margin="10dp"
             android:onClick="WybierzKolor"
             />
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#1fb200"
+            android:backgroundTint="@color/GreenBuge"
             android:layout_margin="10dp"
             android:onClick="WybierzKolor"
             />
@@ -80,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#ff00f7"
+            android:backgroundTint="@color/Pink"
             android:layout_margin="10dp"
             android:onClick="WybierzKolor"
             />
@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#b80a0a"
+            android:backgroundTint="@color/Blood"
             android:layout_margin="10dp"
             android:onClick="WybierzKolorOk"
             />
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#00cfff"
+            android:backgroundTint="@color/AryjskieOczy"
             android:layout_margin="10dp"
             android:onClick="WybierzKolor"
             />
